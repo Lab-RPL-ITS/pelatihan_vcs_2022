@@ -1,1 +1,1 @@
-# Pelatihan_VCS_2022
+# Pelatihan Version Control System (GitHub Environment) Lab RPL ITS 2022
