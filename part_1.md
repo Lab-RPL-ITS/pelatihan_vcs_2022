@@ -50,7 +50,7 @@ Inisialisasi repository dapat dilakukan dengan command :
 git init
 ```
 
-#### Alur Kerja Git
+#### Alur Kerja Git (Basic Workflow)
 Alur kerja Git
 Terdapat 3 area pada sebuah repository git
 - Working Tree
@@ -60,22 +60,35 @@ Terdapat 3 area pada sebuah repository git
 - History
   > Tempat yang digunakan Git untuk menyimpan progress
 
-Terdapat pula yang namanya Branch. Branch adalah cabang dari sebuah perubahan pada repository git. Contoh kasus penggunaan git branch adalah saat mengembangkan aplikasi bersama-sama dan pembagian tugas adalah per fitur untuk tiap orang. Branch tersebut nantinya dapat di git merge ke branch utama agar menjadi satu kesatuan. 
-
-
-#### Working With Git
-Terdapat beberapa command dasar Git yang harus diketahui
-
+Terdapat beberapa perintah yang perlu diketahui : 
 ```bash
-git status #digunakan untuk melihat status working tree
-git add #menambahkan file ke staging area
-git commit #menambahkan file ke history area
-git log #menunjukkan riwayat commit git
 git diff #menunjukkan perbedaan file
 git branch #menunjukkan, membuat, atau menghapus branch
 git checkout #berpindah branch
+git merge #menyatukan branch
 ```
+Alur basic adalah sebagai berikut : 
+[image]
 
+#### Alur Kerja Git (Branching and Merging)
 
+Terdapat beberapa perintah yang perlu diketahui : 
+```bash
+git branch #digunakan untuk melihat status working tree
+git add #menambahkan file ke staging area
+git commit #menambahkan file ke history area
+git log #menunjukkan riwayat commit git
+```
+Branch adalah cabang dari sebuah perubahan pada repository git. Contoh kasus penggunaan branch adalah saat mengembangkan aplikasi bersama-sama dan pembagian tugas adalah per fitur untuk tiap orang. Branch tersebut nantinya dapat di git merge ke branch utama agar menjadi satu. 
+
+[gambar_branch]
+
+Merging adalah proses penggabungan dua branch, terdapat dua jenis merging yaitu
+- Fast Forward Merge
+   > Saat ada jalur langsung dari suatu commit ke commit yang akan dimerge ke commit tersebut
+   > > [Gambar]
+- 3-way Merge
+  > Saat tidak ada jalur langsung dari suatu commit ke comit yang akan dimerge ke commit tersebut
+  > > [Gambar]
 
 
