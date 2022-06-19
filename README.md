@@ -1,4 +1,4 @@
-# Pelatihan_VCS_2022
+# Pelatihan Version Control System (GitHub Environment) Lab RPL ITS 2022
 
 ##Ini adalah repository materi pelatihan VCS LAB RPL ITS
 Silakan mengakses laman berikut untuk melihat materi tiap part
