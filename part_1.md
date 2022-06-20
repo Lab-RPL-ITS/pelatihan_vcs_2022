@@ -27,6 +27,11 @@ Git dapat dianggap sebagai kamera yang meng-capture tiap versi dari suatu direkt
 #### Cara Instalasi Git
 Aplikasi Git dapat diunduh melalui laman resmi Git pada https://git-scm.com/downloads. Silakan mengikuti instruksi instalasi Git sesuai dengan sistem operasi masing-masing.
 
+<p align="center">
+  <img src="https://github.com/LabSE-ITS/Pelatihan_VCS_2022/blob/main/images/git_download.png" width="600">
+</p>
+
+
 Instalasi Git pada Linux dapat dilakukan dengan command :
 
 ```bash
@@ -36,11 +41,21 @@ sudo apt install git
 #### Dokumentasi Git
 Git juga resmi menyediakan tata cara penggunaan dan referensi belajar lainnya. Semua hal tersebut dapat diakses pada dokumentasi Git pada laman https://git-scm.com/doc.
 
+<p align="center">
+  <img src="https://github.com/LabSE-ITS/Pelatihan_VCS_2022/blob/main/images/git_docs.png" width="600">
+</p>
+
 Tata cara Git pada Linux/CLI dapat diakses dengan command :
 
 ```bash
 git --help
 ```
+
+<p align="center">
+  <img src="https://github.com/LabSE-ITS/Pelatihan_VCS_2022/blob/main/images/git_help_terminal.png" width="600">
+</p>
+
+
 
 #### Konfigurasi User
 Sebelum menggunakan Git, konfigurasi terlebih dahulu username dan password secara lokal yaitu dengan command :
