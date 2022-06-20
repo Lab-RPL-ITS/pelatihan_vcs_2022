@@ -51,6 +51,14 @@ git init
 ```
 
 #### Alur Kerja Git (Basic Workflow)
+Terdapat beberapa perintah yang perlu diketahui : 
+```bash
+git add <nama_file> #menambahkan file ke staging area
+git commit -m <pesan> #menambahkan file ke history area
+git log #menunjukkan riwayat commit git
+git status #menunjukkan status branch saat ini
+```
+
 Alur kerja Git
 Terdapat 3 area pada sebuah repository git
 - Working Tree
@@ -60,30 +68,37 @@ Terdapat 3 area pada sebuah repository git
 - History
   > Tempat yang digunakan Git untuk menyimpan progress
 
-Terdapat beberapa perintah yang perlu diketahui : 
+[Git Areas]
+
+Telah disebutkan bahwa git menyimpan data mengenai apa yang telah dikerjakan, tetapi bagaimana git menyimpannya? Git menyimpan setiap folder/direktori sebagai sebuah tree dan file di dalamnya sebagai blob (binary large object). Blob tersebut nantinya akan dikompres dan namanya diubah menjadi enkripsi hash SHA1.
+
+[Git Data Modelling 1]
+
+Git menyimpan tiap capture atau commit dalam bentuk graf, yang berbentuk seperti berikut :
+
+[Git Data Modelling 2]
+
+Graf tersebut dapat dilihat melalui command berikut pada terminal :
+
 ```bash
-git diff #menunjukkan perbedaan file
-git branch #menunjukkan, membuat, atau menghapus branch
-git checkout #berpindah branch
-git merge #menyatukan branch
+git log --all --graph --decorate
 ```
-Alur basic adalah sebagai berikut : 
-[image]
 
 #### Alur Kerja Git (Branching and Merging)
 
 Terdapat beberapa perintah yang perlu diketahui : 
 ```bash
-git branch #digunakan untuk melihat status working tree
-git add #menambahkan file ke staging area
-git commit #menambahkan file ke history area
-git log #menunjukkan riwayat commit git
+git branch #digunakan untuk melihat branch yang ada
+git branch <nama_branch> #digunakan untuk membuat branch baru
+git checkout <nama_branch> #digunakan untuk berpindah branch
+git merge <nama_branch> #menyatukan branch lain dengan branch saat ini
+git rebase <nama_branch> #menyatukan branch lain dengan branch saat ini dengan satu alur
 ```
 Branch adalah cabang dari sebuah perubahan pada repository git. Contoh kasus penggunaan branch adalah saat mengembangkan aplikasi bersama-sama dan pembagian tugas adalah per fitur untuk tiap orang. Branch tersebut nantinya dapat di git merge ke branch utama agar menjadi satu. 
 
 [gambar_branch]
 
-Merging adalah proses penggabungan dua branch, terdapat dua jenis merging yaitu
+Merging adalah proses penggabungan dua branch yang akan menyimpan semua riwayat commit kedua branch, terdapat dua jenis merging yaitu
 - Fast Forward Merge
    > Saat ada jalur langsung dari suatu commit ke commit yang akan dimerge ke commit tersebut
    > > [Gambar]
@@ -91,4 +106,6 @@ Merging adalah proses penggabungan dua branch, terdapat dua jenis merging yaitu
   > Saat tidak ada jalur langsung dari suatu commit ke comit yang akan dimerge ke commit tersebut
   > > [Gambar]
 
+Rebase adalah proses penggabungan dua branch juga, tetapi hanya memasukkan riwayat commit perubahan branch yang akan disatukan.
+[gambar]
 
