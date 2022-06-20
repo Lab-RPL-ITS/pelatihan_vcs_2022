@@ -93,6 +93,7 @@ git branch <nama_branch> #digunakan untuk membuat branch baru
 git checkout <nama_branch> #digunakan untuk berpindah branch
 git merge <nama_branch> #menyatukan branch lain dengan branch saat ini
 git rebase <nama_branch> #menyatukan branch lain dengan branch saat ini dengan satu alur
+git stash #menyimpan perubahan sementara sehingga memungkinkan untuk berpindah branch walaupun ada unsaved work
 ```
 Branch adalah cabang dari sebuah perubahan pada repository git. Contoh kasus penggunaan branch adalah saat mengembangkan aplikasi bersama-sama dan pembagian tugas adalah per fitur untuk tiap orang. Branch tersebut nantinya dapat di git merge ke branch utama agar menjadi satu. 
 
@@ -108,4 +109,3 @@ Merging adalah proses penggabungan dua branch yang akan menyimpan semua riwayat 
 
 Rebase adalah proses penggabungan dua branch juga, tetapi hanya memasukkan riwayat commit perubahan branch yang akan disatukan.
 [gambar]
-
