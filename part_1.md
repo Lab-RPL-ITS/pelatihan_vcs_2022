@@ -12,7 +12,15 @@ Git adalah salah satu Version Control System (VCS) yang open source dan gratis. 
 - Berkolaborasi dengan tim
 - Banyak digunakan oleh developer di seluruh dunia
 
+<p align="center">
+  <img src="https://github.com/LabSE-ITS/Pelatihan_VCS_2022/blob/main/images/why_git.jpg" width="600">
+</p>
+
 Git dapat dianggap sebagai kamera yang meng-capture tiap versi dari suatu direktori dan memungkinkan untuk mengembalikan atau berpindah versi direktori.
+
+<p align="center">
+  <img src="https://github.com/LabSE-ITS/Pelatihan_VCS_2022/blob/main/images/git_capture.jpg" width="600">
+</p>
 
 ### Penggunaan Git
 
@@ -68,15 +76,22 @@ Terdapat 3 area pada sebuah repository git
 - History
   > Tempat yang digunakan Git untuk menyimpan progress
 
-[Git Areas]
+<p align="center">
+  <img src="https://github.com/LabSE-ITS/Pelatihan_VCS_2022/blob/main/images/git_areas.jpg" width="600">
+</p>
 
 Telah disebutkan bahwa git menyimpan data mengenai apa yang telah dikerjakan, tetapi bagaimana git menyimpannya? Git menyimpan setiap folder/direktori sebagai sebuah tree dan file di dalamnya sebagai blob (binary large object). Blob tersebut nantinya akan dikompres dan namanya diubah menjadi enkripsi hash SHA1.
 
-[Git Data Modelling 1]
+<p align="center">
+  <img src="https://github.com/LabSE-ITS/Pelatihan_VCS_2022/blob/main/images/git_data_modelling.jpg" width="600">
+</p>
 
 Git menyimpan tiap capture atau commit dalam bentuk graf, yang berbentuk seperti berikut :
 
-[Git Data Modelling 2]
+
+<p align="center">
+  <img src="https://github.com/LabSE-ITS/Pelatihan_VCS_2022/blob/main/images/git_data_modelling2.jpg" width="600">
+</p>
 
 Graf tersebut dapat dilihat melalui command berikut pada terminal :
 
@@ -97,15 +112,21 @@ git stash #menyimpan perubahan sementara sehingga memungkinkan untuk berpindah b
 ```
 Branch adalah cabang dari sebuah perubahan pada repository git. Contoh kasus penggunaan branch adalah saat mengembangkan aplikasi bersama-sama dan pembagian tugas adalah per fitur untuk tiap orang. Branch tersebut nantinya dapat di git merge ke branch utama agar menjadi satu. 
 
-[gambar_branch]
+<p align="center">
+  <img src="https://github.com/LabSE-ITS/Pelatihan_VCS_2022/blob/main/images/git_branches.jpg" width="600">
+</p>
 
 Merging adalah proses penggabungan dua branch yang akan menyimpan semua riwayat commit kedua branch, terdapat dua jenis merging yaitu
 - Fast Forward Merge
    > Saat ada jalur langsung dari suatu commit ke commit yang akan dimerge ke commit tersebut
-   > > [Gambar]
+   > > <p align="center"><img src="https://github.com/LabSE-ITS/Pelatihan_VCS_2022/blob/main/images/git_fast_forward_merge.jpg" width="600"></p>
 - 3-way Merge
   > Saat tidak ada jalur langsung dari suatu commit ke comit yang akan dimerge ke commit tersebut
-  > > [Gambar]
+  > > <p align="center"><img src="https://github.com/LabSE-ITS/Pelatihan_VCS_2022/blob/main/images/git_3-way_merge.jpg" width="600"></p>
 
 Rebase adalah proses penggabungan dua branch juga, tetapi hanya memasukkan riwayat commit perubahan branch yang akan disatukan.
-[gambar]
+
+<p align="center">
+  <img src="https://github.com/LabSE-ITS/Pelatihan_VCS_2022/blob/main/images/git_rebase.jpg" width="600">
+</p>
+
