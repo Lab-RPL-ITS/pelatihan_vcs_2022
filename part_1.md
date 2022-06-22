@@ -66,7 +66,7 @@ git config --global user.email “email@email.id”
 ```
 
 #### Inisialisasi Repo
-Repository atau repo adalah file .git pada folder yang telah di-git init, file tersebut menyimpan data mengenai operasi-operasi git yang dilakukan pada direktori tersebut. Data tersebut dapat dilihat pada folder /.git/objects. Git juga menyimpan file-file yang kemudian dikompres dan dinamai dengan bantuan enkripsi hash SHA1 agar aman dan mempermudah operasi-operasi pada Git.
+Repository atau repo adalah folder .git pada folder yang telah di-git init, folder tersebut menyimpan data mengenai operasi-operasi git yang dilakukan pada direktori tersebut. Data tersebut dapat dilihat pada folder /.git/objects. Git juga menyimpan file-file yang kemudian dikompres dan dinamai dengan bantuan enkripsi hash SHA1 agar aman dan mempermudah operasi-operasi pada Git.
 
 Inisialisasi repository dapat dilakukan dengan command :
 ```bash
@@ -105,7 +105,7 @@ Git menyimpan tiap capture atau commit dalam bentuk graf, yang berbentuk seperti
 
 
 <p align="center">
-  <img src="https://github.com/LabSE-ITS/Pelatihan_VCS_2022/blob/main/images/git_data_modelling2.jpg" width="600">
+  <img src="https://github.com/LabSE-ITS/Pelatihan_VCS_2022/blob/main/images/git_data_modelling_2.jpg" width="600">
 </p>
 
 Graf tersebut dapat dilihat melalui command berikut pada terminal :
