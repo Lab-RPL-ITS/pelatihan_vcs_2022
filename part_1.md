@@ -2,8 +2,23 @@
 
 ## Part 1 : Pengenalan Git Version Control System
 
+### Version Control Systems
+Pernahkah kalian mengerjakan tugas, atau apa pun itu dan pada akhirnya menjadi begini?
+
+<p align="center">
+  <img src="https://github.com/LabSE-ITS/Pelatihan_VCS_2022/blob/main/images/git_docs.png" width="600">
+</p>
+
+Menyimpan banyak file dengan nama yang berbeda-beda pasti sangat memusingkan dan memerlukan banyak ruang. Mungkin hal tersebut bisa saja diakali dengan menyimpan file kalian pada layanan berikut :
+
+<p align="center">
+  <img src="https://github.com/LabSE-ITS/Pelatihan_VCS_2022/blob/main/images/git_docs.png" width="600">
+</p>
+
+Tetap, melakukan kedua hal tersebut sangat tidak efisien, apalagi kalau kalian seorang programmer yang berurusan dengan ratusan bahkan ribuan file dan folder. Solusi dari permasalahan tersebut adalah Version Control System (VCS). Version Control System (VCS) adalah jenis perangkat lunak yang membantu developer dalam melacak dan megelola perubahan pada file. Terdapat beberapa version control system yang terkenal seperti Git, Subversion, CVS, dan Mercurial. Namun, yang akan kita bahas adalah Git.
+
 ### Apa itu Git?
-Git adalah salah satu Version Control System (VCS) yang open source dan gratis. Version Control System (VCS) adalah jenis perangkat lunak yang membantu developer dalam melacak dan megelola perubahan pada file. Git dibuat oleh Linus Torvalds saat sedang mengembangkan kernel Linux.
+Git adalah salah satu Version Control System (VCS) yang open source dan gratis. Git dibuat oleh Linus Torvalds saat sedang mengembangkan kernel Linux.
 
 #### Kenapa Pakai Git?
 - Melacak perubahan terhadap pekerjaan (Who, What, When, Why)
