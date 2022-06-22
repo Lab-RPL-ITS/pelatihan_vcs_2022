@@ -2,8 +2,23 @@
 
 ## Part 1 : Pengenalan Git Version Control System
 
+### Version Control Systems
+Pernahkah kalian mengerjakan tugas, atau apa pun itu dan pada akhirnya menjadi begini?
+
+<p align="center">
+  <img src="https://github.com/LabSE-ITS/Pelatihan_VCS_2022/blob/main/images/git_docs.png" width="600">
+</p>
+
+Menyimpan banyak file dengan nama yang berbeda-beda pasti sangat memusingkan dan memerlukan banyak ruang. Mungkin hal tersebut bisa saja diakali dengan menyimpan file kalian pada layanan berikut :
+
+<p align="center">
+  <img src="https://github.com/LabSE-ITS/Pelatihan_VCS_2022/blob/main/images/git_docs.png" width="600">
+</p>
+
+Tetap, melakukan kedua hal tersebut sangat tidak efisien, apalagi kalau kalian seorang programmer yang berurusan dengan ratusan bahkan ribuan file dan folder. Solusi dari permasalahan tersebut adalah Version Control System (VCS). Version Control System (VCS) adalah jenis perangkat lunak yang membantu developer dalam melacak dan megelola perubahan pada file. Terdapat beberapa version control system yang terkenal seperti Git, Subversion, CVS, dan Mercurial. Namun, yang akan kita bahas adalah Git.
+
 ### Apa itu Git?
-Git adalah salah satu Version Control System (VCS) yang open source dan gratis. Version Control System (VCS) adalah jenis perangkat lunak yang membantu developer dalam melacak dan megelola perubahan pada file. Git dibuat oleh Linus Torvalds saat sedang mengembangkan kernel Linux.
+Git adalah salah satu Version Control System (VCS) yang open source dan gratis. Git dibuat oleh Linus Torvalds saat sedang mengembangkan kernel Linux.
 
 #### Kenapa Pakai Git?
 - Melacak perubahan terhadap pekerjaan (Who, What, When, Why)
@@ -27,6 +42,11 @@ Git dapat dianggap sebagai kamera yang meng-capture tiap versi dari suatu direkt
 #### Cara Instalasi Git
 Aplikasi Git dapat diunduh melalui laman resmi Git pada https://git-scm.com/downloads. Silakan mengikuti instruksi instalasi Git sesuai dengan sistem operasi masing-masing.
 
+<p align="center">
+  <img src="https://github.com/LabSE-ITS/Pelatihan_VCS_2022/blob/main/images/git_download.png" width="600">
+</p>
+
+
 Instalasi Git pada Linux dapat dilakukan dengan command :
 
 ```bash
@@ -36,11 +56,21 @@ sudo apt install git
 #### Dokumentasi Git
 Git juga resmi menyediakan tata cara penggunaan dan referensi belajar lainnya. Semua hal tersebut dapat diakses pada dokumentasi Git pada laman https://git-scm.com/doc.
 
+<p align="center">
+  <img src="https://github.com/LabSE-ITS/Pelatihan_VCS_2022/blob/main/images/git_docs.png" width="600">
+</p>
+
 Tata cara Git pada Linux/CLI dapat diakses dengan command :
 
 ```bash
 git --help
 ```
+
+<p align="center">
+  <img src="https://github.com/LabSE-ITS/Pelatihan_VCS_2022/blob/main/images/git_help_terminal.png" width="600">
+</p>
+
+
 
 #### Konfigurasi User
 Sebelum menggunakan Git, konfigurasi terlebih dahulu username dan password secara lokal yaitu dengan command :
@@ -51,7 +81,7 @@ git config --global user.email “email@email.id”
 ```
 
 #### Inisialisasi Repo
-Repository atau repo adalah file .git pada folder yang telah di-git init, file tersebut menyimpan data mengenai operasi-operasi git yang dilakukan pada direktori tersebut. Data tersebut dapat dilihat pada folder /.git/objects. Git juga menyimpan file-file yang kemudian dikompres dan dinamai dengan bantuan enkripsi hash SHA1 agar aman dan mempermudah operasi-operasi pada Git.
+Repository atau repo adalah folder .git pada folder yang telah di-git init, folder tersebut menyimpan data mengenai operasi-operasi git yang dilakukan pada direktori tersebut. Data tersebut dapat dilihat pada folder /.git/objects. Git juga menyimpan file-file yang kemudian dikompres dan dinamai dengan bantuan enkripsi hash SHA1 agar aman dan mempermudah operasi-operasi pada Git.
 
 Inisialisasi repository dapat dilakukan dengan command :
 ```bash
@@ -90,7 +120,7 @@ Git menyimpan tiap capture atau commit dalam bentuk graf, yang berbentuk seperti
 
 
 <p align="center">
-  <img src="https://github.com/LabSE-ITS/Pelatihan_VCS_2022/blob/main/images/git_data_modelling2.jpg" width="600">
+  <img src="https://github.com/LabSE-ITS/Pelatihan_VCS_2022/blob/main/images/git_data_modelling_2.jpg" width="600">
 </p>
 
 Graf tersebut dapat dilihat melalui command berikut pada terminal :
