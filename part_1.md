@@ -26,7 +26,6 @@ Git adalah salah satu Version Control System (VCS) yang open source dan gratis. 
 
 #### Kenapa Pakai Git?
 - Melacak perubahan terhadap pekerjaan (Who, What, When, Why)
-- Mengurangi risiko error pada pengembangan proyek
 - Membantu pemulihan apabila terjadi kendala
 - Berkolaborasi dengan tim
 - Banyak digunakan oleh developer di seluruh dunia
@@ -40,6 +39,17 @@ Git dapat dianggap sebagai kamera yang meng-capture tiap versi dari suatu direkt
 <p align="center">
   <img src="https://github.com/LabSE-ITS/Pelatihan_VCS_2022/blob/main/images/git_capture.jpg" width="600">
 </p>
+
+### Istilah-Istilah yang Perlu Diketahui
+- Repository  : Tempat git melacak perubahan, dalam konteks Git dapat juga dianggap sebagai folder tempat bekerja
+- Branch  : Cabang pada Git
+- Commit  : Perubahan file yang telah disimpan/snapshot dari repository
+- Merge   : Proses menggabungkan beberapa branch
+- Hash    : Penanda unik pada commit
+- Remote  : Sumber yang memiliki repository
+- Clone   : Mengambil repository dari remote
+- Push    : Mengirimkan commit ke repository
+- Pull    : Mengambil commit dari repository
 
 ### Penggunaan Git
 
