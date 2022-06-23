@@ -18,7 +18,7 @@ Menyimpan banyak file dengan nama yang berbeda-beda pasti sangat memusingkan dan
 Tetap, melakukan kedua hal tersebut sangat tidak efisien, apalagi kalau kalian seorang programmer yang berurusan dengan ratusan bahkan ribuan file dan folder. Solusi dari permasalahan tersebut adalah Version Control System (VCS). Version Control System (VCS) adalah jenis perangkat lunak yang membantu developer dalam melacak dan megelola perubahan pada file. Terdapat beberapa version control system yang terkenal seperti Git, Subversion, CVS, dan Mercurial. Namun, yang akan kita bahas adalah Git.
 
 <p align="center">
-  <img src="https://github.com/LabSE-ITS/Pelatihan_VCS_2022/blob/main/images/vcs_intro_2.jpg" width="600">
+  <img src="https://github.com/LabSE-ITS/Pelatihan_VCS_2022/blob/main/images/vcs_intro_3.jpg" width="600">
 </p>
 
 ### Apa itu Git?
