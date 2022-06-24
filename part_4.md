@@ -15,13 +15,13 @@ Untuk membuat Github Pages dapat dilakukan dengan cara :<br />
 <ol>
   <li>Membuat repositori dengan nama <b>username.github.io</b>.</li>
   <p align="center">
-    <img src="https://github.com/LabSE-ITS/Pelatihan_VCS_2022/blob/main/images/GithubPages1.png" width="600">
-    <img src="https://github.com/LabSE-ITS/Pelatihan_VCS_2022/blob/main/images/GithubPages2.png" width="600">
+    <img src="https://github.com/Lab-RPL-ITS/pelatihan_vcs_2022/blob/main/images/GithubPages1.png" width="600">
+    <img src="https://github.com/Lab-RPL-ITS/pelatihan_vcs_2022/blob/main/images/GithubPages2.png" width="600">
   </p>
 
   <li>Pergi ke halaman <b>Settings -> Pages.</b></li>
   <p align="center">
-    <img src="https://github.com/LabSE-ITS/Pelatihan_VCS_2022/blob/main/images/GithubPages3.png" width="600"
+    <img src="https://github.com/Lab-RPL-ITS/pelatihan_vcs_2022/blob/main/images/GithubPages3.png" width="600"
   </p>
 
   <li>Klik <b>Choose a Theme</b>.</li>
@@ -30,7 +30,7 @@ Untuk membuat Github Pages dapat dilakukan dengan cara :<br />
   <li>Setelah selesai, klik <b>Commit changes</b>.</li>
   <li>Kunjungi username.github.io untuk melihat hasilnya.</li>
   <p align="center">
-    <img src="https://github.com/LabSE-ITS/Pelatihan_VCS_2022/blob/main/images/GithubPages4.png" width="600">
+    <img src="https://github.com/Lab-RPL-ITS/pelatihan_vcs_2022/blob/main/images/GithubPages4.png" width="600">
   </p>
   <b>*Dapat diperlukan waktu hingga 20 menit agar perubahan yang ada di repositori dapat dimuat dalam Github Pages</b>
 </ol>
@@ -42,19 +42,19 @@ Untuk melakukan deploy repositori ke Vercel, dapat dilakukan dengan cara :<br />
 <ol>
   <li>Siapkan dan pilih repositori yang akan dideploy ke Vercel.</li>
   <p align="center">
-    <img src="https://github.com/LabSE-ITS/Pelatihan_VCS_2022/blob/main/images/Vercel1.png" width="600">
-    <img src="https://github.com/LabSE-ITS/Pelatihan_VCS_2022/blob/main/images/Vercel2.png" width="600">
+    <img src="https://github.com/Lab-RPL-ITS/pelatihan_vcs_2022/blob/main/images/Vercel1.png" width="600">
+    <img src="https://github.com/Lab-RPL-ITS/pelatihan_vcs_2022/blob/main/images/Vercel2.png" width="600">
   </p>
   
   <li>Klik <b>Deploy</b> pada Configure Project.</li>
   <p align="center">
-    <img src="https://github.com/LabSE-ITS/Pelatihan_VCS_2022/blob/main/images/Vercel3.png" width="600">
+    <img src="https://github.com/Lab-RPL-ITS/pelatihan_vcs_2022/blob/main/images/Vercel3.png" width="600">
   </p>
   
   <li>Repositori sudah terdeploy.</li>
   <p align="center">
-    <img src="https://github.com/LabSE-ITS/Pelatihan_VCS_2022/blob/main/images/Vercel4.png" width="600">
-    <img src="https://github.com/LabSE-ITS/Pelatihan_VCS_2022/blob/main/images/Vercel5.png" width="600">
+    <img src="https://github.com/Lab-RPL-ITS/pelatihan_vcs_2022/blob/main/images/Vercel4.png" width="600">
+    <img src="https://github.com/Lab-RPL-ITS/pelatihan_vcs_2022/blob/main/images/Vercel5.png" width="600">
   </p>
 </ol>
 
