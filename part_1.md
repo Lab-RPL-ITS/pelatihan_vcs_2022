@@ -22,7 +22,7 @@ Tetap, melakukan kedua hal tersebut sangat tidak efisien, apalagi kalau kalian s
 </p>
 
 ### Apa itu Git?
-Git adalah salah satu Version Control System (VCS) yang open source dan gratis. Git dibuat oleh Linus Torvalds saat sedang mengembangkan kernel Linux.
+Git adalah perangkat lunak pengendali versi atau proyek manajemen kode perangkat lunak yang diciptakan oleh Linus Torvalds, yang pada awalnya ditujukan untuk pengembangan kernel Linux. Git adalah perangkat lunak yang bersifat open source dan gratis.
 
 #### Kenapa Pakai Git?
 - Melacak perubahan terhadap pekerjaan (Who, What, When, Why)
