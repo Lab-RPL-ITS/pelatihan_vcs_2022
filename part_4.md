@@ -14,12 +14,24 @@ Merupakan halaman web publik yang dihosting dan diterbitkan melalui Github. Deng
 Untuk membuat Github Pages dapat dilakukan dengan cara :<br />
 <ol>
   <li>Membuat repositori dengan nama <b>username.github.io</b>.</li>
+  <p align="center">
+    <img src="https://github.com/LabSE-ITS/Pelatihan_VCS_2022/blob/main/images/GithubPages1.png" width="600">
+    <img src="https://github.com/LabSE-ITS/Pelatihan_VCS_2022/blob/main/images/GithubPages2.png" width="600">
+  </p>
+
   <li>Pergi ke halaman <b>Settings -> Pages.</b></li>
+  <p align="center">
+    <img src="https://github.com/LabSE-ITS/Pelatihan_VCS_2022/blob/main/images/GithubPages3.png" width="600"
+  </p>
+
   <li>Klik <b>Choose a Theme</b>.</li>
   <li>Setelah memilih tema, <b>Select Theme</b>.</li>
   <li>Setelah memilih tema, file README.md akan terbuka di editor file.</li>
   <li>Setelah selesai, klik <b>Commit changes</b>.</li>
   <li>Kunjungi username.github.io untuk melihat hasilnya.</li>
+  <p align="center">
+    <img src="https://github.com/LabSE-ITS/Pelatihan_VCS_2022/blob/main/images/GithubPages4.png" width="600">
+  </p>
   <b>*Dapat diperlukan waktu hingga 20 menit agar perubahan yang ada di repositori dapat dimuat dalam Github Pages</b>
 </ol>
 
