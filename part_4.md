@@ -3,12 +3,20 @@
 ## Part 4 : Aktivitas Pasca Proyek
 
 ### Apa itu Web Hosting?
+<p align="center">
+  <img src="https://github.com/Lab-RPL-ITS/pelatihan_vcs_2022/blob/main/images/web_hosting.jpg" width="600">
+</p>
+
 Web hosting Adalah  layanan untuk menyimpan semua file dan data website agar bisa online di internet dan diakses oleh siapa pun. Web hosting ibarat rumah bagi
 website Anda, sehingga orang-orang bisa mengunjunginya dari mana saja.
 
 ### 2 Contoh Web Hosting :
 
 #### 1. Github Pages
+<p align="center">
+  <img src="https://github.com/Lab-RPL-ITS/pelatihan_vcs_2022/blob/main/images/github_pages.jpeg" width="600">
+</p>
+
 Merupakan halaman web publik yang dihosting dan diterbitkan melalui Github. Dengan Github Pages, halaman web statis dapat di-host dengan gratis dan mudah.<br />
 
 Untuk membuat Github Pages dapat dilakukan dengan cara :<br />
@@ -36,6 +44,10 @@ Untuk membuat Github Pages dapat dilakukan dengan cara :<br />
 </ol>
 
 #### 2. Vercel
+<p align="center">
+  <img src="https://github.com/Lab-RPL-ITS/pelatihan_vcs_2022/blob/main/images/vercel_app.jpg" width="600">
+</p>
+
 Merupakan platform framework frontend dan situs statis. Sama seperti Github Pages, Vercel juga dapat digunakan untuk melakukan host repositori secara gratis dan mudah.
 
 Untuk melakukan deploy repositori ke Vercel, dapat dilakukan dengan cara :<br />
